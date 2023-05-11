@@ -8,7 +8,7 @@ body {
   font-family: Poppins;
 }
 
-.section {
+.cardContainer {
   width: 100vw;
   height: 100vh;
   /* width: 90vw; */
@@ -17,16 +17,17 @@ body {
   justify-content: center;
   align-items: center;
 }
-.firstBox,
-.secondBox,
-.thirdBox {
+.twitterCard,
+.instagramCard,
+.youTubeCard {
+  width: 30%;
   border: 1px solid black;
   padding: 25px;
   margin: 0 10px;
   border-radius: 5px;
 }
 p,
-h1 {
+h2 {
   text-align: center;
   margin: 10px 0px;
 }
@@ -34,7 +35,8 @@ p {
   color: rgb(117, 108, 108);
 }
 button {
-  width: 100%;
+  width: 300px;
+
   border: none;
   background-color: black;
   color: white;
@@ -42,24 +44,25 @@ button {
   padding: 10px 20px;
   font-size: 20px;
   margin-top: 10px;
+  margin-left: 55px;
 }
 i {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 45px;
-  margin-left: 48%;
+  margin-left: 45%;
 }
-.secondBox {
+.instagramCard {
   background-color: rgb(214, 23, 125);
   color: white;
   border: none;
 }
-.secondBox p,
+.instagramCard p,
 button {
   color: white;
 }
-.secondBox button {
+.instagramCard button {
   background-color: white;
   color: rgb(222, 20, 117);
 }
